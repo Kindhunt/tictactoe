@@ -13,6 +13,6 @@ def lang_keyboard():
 
     for item in available_langs:
         markup.add(InlineKeyboardButton(available_langs_names[i], callback_data=f'cb_{item}'))
-        i=+1
+        i += 1
 
     return markup
